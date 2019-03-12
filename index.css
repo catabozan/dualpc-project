@@ -6,3 +6,15 @@
 #brand {
 	font-size: 1.75rem;
 }
+
+#header {
+	height: 24rem;
+}
+
+#header img {
+	height: 24rem;
+}
+
+#header p {
+	line-height: 1.75rem;
+}
