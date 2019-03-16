@@ -1,0 +1,32 @@
+*{
+	font-family: Montserrat;
+	transition: all .5s;
+}
+
+.rounded {
+	border-radius: .5rem !important;
+}
+
+.border {
+	border-width: 2px !important;
+}
+
+#index {
+	background: url("resources/images/main-bg.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+
+}
+
+#top-index-navbar {
+	opacity: 0.5;
+}
+
+#brand {
+	font-size: 1.75rem;
+}
+
+#index-content h1 {
+	
+}

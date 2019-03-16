@@ -3,18 +3,44 @@
 	transition: all .5s;
 }
 
+.rounded {
+	border-radius: .5rem !important;
+}
+
+.border {
+	border-width: 2px !important;
+}
+
+#index {
+	background: url("resources/images/main-bg.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+
+}
+
+#top-index-navbar {
+	opacity: 0.5;
+}
+
 #brand {
 	font-size: 1.75rem;
 }
 
-#header {
-	height: 24rem;
+#index-content a{
+	font-size: 3rem;
 }
 
-#header img {
-	height: 24rem;
+#index-content a:hover {
+	color: inherit !important;
+	text-decoration: inherit;
 }
 
-#header p {
-	line-height: 1.75rem;
+#index-content a, #brand{
+	font-family: Permanent Marker;
+	letter-spacing: .1rem;
+}
+
+#index-content p {
+	font-size: 1.25rem;
 }

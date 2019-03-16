@@ -1,0 +1,11 @@
+.attraction {
+	height: 24rem;
+}
+
+.attraction img {
+	width: 40rem;
+}
+
+.attraction p {
+	line-height: 1.75rem;
+}
