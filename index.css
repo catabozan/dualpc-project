@@ -12,7 +12,7 @@
 }
 
 #index {
-	background: url("resources/images/main-bg.jpg") no-repeat;
+	background: url("resources/images/index/2.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -21,10 +21,20 @@
 
 #top-index-navbar {
 	opacity: 0.5;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+#top-index-navbar:hover {
+	opacity: .8;
 }
 
 #brand {
 	font-size: 1.75rem;
+}
+
+#index-content {
+	height: 85% !important;
 }
 
 #index-content a{

@@ -1,11 +1,24 @@
 .attraction {
-	height: 24rem;
+	
 }
 
 .attraction img {
-	width: 40rem;
+	width: 46.75rem;
+	height: 28rem;
 }
 
 .attraction p {
 	line-height: 1.75rem;
+}
+
+@media(min-width: 1281px) {
+	.attraction{
+		padding-bottom: 1.5rem;
+		padding-top: 1.5rem;
+	}
+	.attraction .container-fluid {
+		width: 1280px;
+		max-width: 1280px !important;
+		margin: auto;
+	}
 }
