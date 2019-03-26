@@ -26,7 +26,7 @@
 }
 
 #top-index-navbar:hover {
-	opacity: .8;
+	opacity: 1;
 }
 
 #brand {
@@ -43,7 +43,6 @@
 }
 
 #index-content a:hover {
-	color: inherit !important;
 	text-decoration: inherit;
 }
 
@@ -54,4 +53,13 @@
 
 #index-content p {
 	font-size: 1.25rem;
+}
+
+#sibiu:hover {
+	opacity: .7;
+}
+
+.bg-dark-transparent {
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, .6);
 }
